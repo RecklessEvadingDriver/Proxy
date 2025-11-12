@@ -1,0 +1,8 @@
+name = "worker"
+compatibility_date = "2030-10-01"
+
+[[env.production.vars]]
+ENVIRONMENT = "production"
+
+[env.production]
+workers_dev = true
